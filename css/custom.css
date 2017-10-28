@@ -139,14 +139,12 @@ img.img-intro {
 }
 .content .post img { margin-bottom: 20px }
 .content .post hr {
-    content: url(../img/separator.png);
     width: 66px;
     height: 7px;
     float: left;
     border: none;
 }
 .content .post h1:before {
-    content: url(../img/separator.png);
     position: absolute;
     top: -35px;
     left: 1px;
@@ -194,7 +192,6 @@ a.read-more:hover {
 	border-bottom: 1px dotted #ccc
 }
 .foot-post:before {
-    content: url(../img/separator.png);
     position: absolute;
     top: -40px;
     left: 1px;
