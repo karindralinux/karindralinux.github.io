@@ -1,2 +1,1 @@
-# namakulinux.github.io
-web profile
+# Personal Site
