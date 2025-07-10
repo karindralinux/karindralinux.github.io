@@ -1,10 +1,46 @@
-# Introducing [Astro Micro 🔬](https://astro-micro.vercel.app/)
+# Personal Site
 
-Astro Micro is an accessible theme for Astro. It's a fork of [Mark Horn's](https://github.com/markhorn-dev) popular theme [Astro Nano](https://astro-nano-demo.vercel.app/). Like Nano, Micro comes with zero frameworks installed.
+This is my personal website and blog, built with [Astro Micro](https://astro-micro.vercel.app/), a modern, accessible theme for [Astro](https://astro.build/).
 
-Micro adds features like [Pagefind](https://pagefind.app) for search, [Giscus](https://giscus.app) for comments, and more. For a full list of changes, see this [blog post](https://astro-micro.vercel.app/blog/00-micro-changelog).
+## Features
+- Blog and portfolio powered by Astro
+- Fast, accessible, and zero client-side JavaScript by default
+- Search (Pagefind), comments (Giscus), RSS, sitemap, and more
+- Styled with TailwindCSS, supports system, light, and dark themes
 
-Micro still comes with everything great about Nano — full type safety, a sitemap, an RSS feed, and Markdown + MDX support. Styled with TailwindCSS and preconfigured with system, light, and dark themes.
+## Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [pnpm](https://pnpm.io/) (or npm/yarn)
+
+### Install dependencies
+```bash
+pnpm install
+```
+
+### Development
+```bash
+pnpm run dev
+```
+Visit [http://localhost:4321](http://localhost:4321) to view the site locally.
+
+### Build for Production
+```bash
+pnpm run build
+```
+The static site will be output to the `dist/` directory.
+
+### Deploy
+This site is automatically deployed to GitHub Pages using GitHub Actions. See `.github/workflows/deploy.yml` for details.
+
+## Content
+- Blog posts and pages are in `src/content/blog/`.
+- Static assets (images, icons) are in `public/`.
+
+## Credits
+- **Template:** [Astro Micro](https://github.com/trevortylerlee/astro-micro) by [@trevortylerlee](https://github.com/trevortylerlee)
+- **Theme:** Forked from [Astro Nano](https://astro-nano-demo.vercel.app/) by [Mark Horn](https://github.com/markhorn-dev)
 
 ---
 
