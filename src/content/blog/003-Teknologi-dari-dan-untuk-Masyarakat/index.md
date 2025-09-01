@@ -1,11 +1,10 @@
 ---
 title: "Teknologi Dari dan Untuk Masyarakat"
 description: "tentang pemahaman teknologi itu apa dan mengapa ada"
-date: "2025-07-10"
+date: "2025-09-01"
 tags:
   - technology
   - society
-draft: false
 ---
 
 Buatan manusia yang dapat membantu kehidupan manusia adalah bagian dari teknologi. Meskipun teknologi sering diartikan sempit sebagai sesuatu yang berkaitan dengan modernitas, komputer, alat-alat canggih. Namun, bagi apapun buatan manusia yang dapat membantu kehidupan manusia layak mendapat sebutan teknologi.
